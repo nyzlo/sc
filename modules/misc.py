@@ -35,7 +35,7 @@ def user_handling(scan):
 	direct_or_file = input("\nHosts directly(1) or file(2): ")
 
 	if direct_or_file == "1":
-		target = input("Input target hosts(e.g IP IP): ")
+		target = input("Input target host/s (e.g IP or IP IP IP): ")
 		print(f"\nScanning {target}")
 	elif direct_or_file == "2":
 		while True:
