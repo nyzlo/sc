@@ -1,7 +1,7 @@
 def show_menu():
 	print("[---NMAP Clown Fiesta---]")
 	print("-------------------------")
-	print("1. Top 1000 tcp port discovery")
+	print("1. Forced top 1000 tcp port")
 	print("2. Quit\n")
 
 def print_scan(scanner):
